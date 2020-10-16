@@ -1,0 +1,137 @@
+/* CSS files add styling rules to your content */
+
+html, body {
+  font-family: helvetica, arial, sans-serif;
+  box-sizing: border-box;
+  height: 100%;
+  background-color: #fbfbfb;
+  margin:0;
+  padding:0;
+}
+
+.header {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width:200px;
+  margin-left:20px;
+}
+
+.nav {
+  margin-left:auto;
+  margin-right:20px;
+}
+
+.navigation {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero {
+  background:url('https://cdn.glitch.com/fad3619a-1553-44da-8e0a-a6ef6c20529d%2Fhero.jpg?v=1602569915042') no-repeat left bottom;
+  width: 100%;
+  height:500px;
+
+}
+
+.hero > h2 {
+  margin:0;
+  padding:20px;
+  color: #fff;
+  font-size: 3em;
+}
+.hero button {
+  margin:20px;
+  padding:20px;
+  border: 0;
+  background-color:#754ef9;
+  color:#fff;
+  font-size:1.5em;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.wrap-content {
+  margin:2em;
+  text-align: center;
+}
+
+.wrap-product {
+  display: flex;
+  justify-content: space-evenly;
+  margin:2em 0;
+}
+
+.product-item img {
+  width: 100%;
+  height: auto;
+}
+
+.box {
+  background:#fff;
+  width:350px;
+  text-align: center;
+  border:1px solid #eceff8;
+}
+
+.wrap-contact {
+  display: flex;
+  justify-content: space-evenly;
+  margin:2em 0;
+}
+
+.contact-item {
+  width: 400px;
+  text-align: center;
+}
+
+
+.contact-item img {
+  border-radius: 50%;
+  margin:15px 0 0 0;
+}
+
+.wrap-form {
+  display: flex;
+  margin:2em 0;
+  justify-content: center;
+}
+
+.wrap-contactform {
+  width: 400px;
+}
+
+.wrap-input {
+  margin-bottom:20px;
+}
+
+.input-text, .textarea {
+  border:1px solid #ddd;
+  padding:10px 5px;
+  border-radius: 10px;
+  width: 80%;
+  font-size:1em;
+}
+
+.button-submit {
+  padding:20px;
+  border: 0;
+  background-color:#754ef9;
+  color:#fff;
+  font-size:1em;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.footer {
+  margin-top:4em;
+  text-align: center;
+  padding:3em 0;
+  background-color:#152136;
+  color:#fff;
+}

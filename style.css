@@ -1,0 +1,35 @@
+.head {
+	background-color: #666;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
+
+.list {
+	float:left;
+	width: 30%;
+	background-color: #ccc;
+	min-height: 450px;
+}
+.nav {
+	font-size: 40px;
+}
+.isi{
+	width: 70%;
+	color:purple;
+	background-color: #ccc;
+}
+.isi h1 {
+	font-size: 40px;
+}
+.isi p{
+	font-size: 30px;
+	
+}
+.kaki {
+	background-color: #777;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	clear:both;
+}
